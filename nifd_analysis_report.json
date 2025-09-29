@@ -1,0 +1,222 @@
+{
+  "summary_statistics": {
+    "total_scans": 3,
+    "total_subjects": 1,
+    "scan_type_distribution": {
+      "t1_mprage": 1,
+      "t2_flair": 1,
+      "t2_spc_ns_sag_p2_iso": 1
+    },
+    "quality_distribution": {
+      "excellent": 3,
+      "poor": 0,
+      "average_quality": 1.0,
+      "quality_std": 0.0
+    },
+    "image_dimensions": {
+      "shapes": [
+        [
+          160,
+          256,
+          240
+        ],
+        [
+          160,
+          256,
+          256
+        ],
+        [
+          160,
+          256,
+          256
+        ]
+      ],
+      "spacings": [
+        [
+          1.0,
+          1.0,
+          0.9999999999999986
+        ],
+        [
+          0.9765625,
+          0.9765625,
+          0.9999999999999986
+        ],
+        [
+          0.9765625,
+          0.9765625,
+          1.0000000000000007
+        ]
+      ],
+      "unique_shapes": [
+        [
+          160,
+          256,
+          256
+        ],
+        [
+          160,
+          256,
+          240
+        ]
+      ],
+      "unique_spacings": [
+        [
+          0.9765625,
+          0.9765625,
+          1.0000000000000007
+        ],
+        [
+          0.9765625,
+          0.9765625,
+          0.9999999999999986
+        ],
+        [
+          1.0,
+          1.0,
+          0.9999999999999986
+        ]
+      ]
+    },
+    "intensity_statistics": {
+      "t1_mprage": [
+        {
+          "mean": 146.0187225341797,
+          "std": 161.93955993652344,
+          "min": 0.0,
+          "max": 1930.0
+        }
+      ],
+      "t2_flair": [
+        {
+          "mean": 54.310546875,
+          "std": 67.35101318359375,
+          "min": 0.0,
+          "max": 837.0
+        }
+      ],
+      "t2_spc_ns_sag_p2_iso": [
+        {
+          "mean": 64.34220123291016,
+          "std": 79.16788482666016,
+          "min": 0.0,
+          "max": 661.0
+        }
+      ]
+    },
+    "subjects": [
+      "1_S_0001"
+    ]
+  },
+  "detailed_analyses": [
+    {
+      "subject_id": "1_S_0001",
+      "scan_type": "t1_mprage",
+      "session_date": "2011-08-26",
+      "dicom_count": 160,
+      "series_description": "t1_mprage",
+      "sequence_name": "*tfl3d1_ns",
+      "echo_time": 2.98,
+      "repetition_time": 2300.0,
+      "inversion_time": 900.0,
+      "image_shape": [
+        160,
+        256,
+        240
+      ],
+      "image_spacing": [
+        1.0,
+        1.0,
+        0.9999999999999986
+      ],
+      "image_origin": [
+        70.05490907069,
+        -136.4231953425,
+        148.22900923288
+      ],
+      "intensity_min": 0.0,
+      "intensity_max": 1930.0,
+      "intensity_mean": 146.0187225341797,
+      "intensity_std": 161.93955993652344,
+      "has_nan": false,
+      "has_inf": false,
+      "quality_score": 1.0
+    },
+    {
+      "subject_id": "1_S_0001",
+      "scan_type": "t2_flair",
+      "session_date": "2011-08-26",
+      "dicom_count": 160,
+      "series_description": "t2_flair",
+      "sequence_name": "*spcir3d1_282ns",
+      "echo_time": 389.0,
+      "repetition_time": 6000.0,
+      "inversion_time": 2100.0,
+      "image_shape": [
+        160,
+        256,
+        256
+      ],
+      "image_spacing": [
+        0.9765625,
+        0.9765625,
+        0.9999999999999986
+      ],
+      "image_origin": [
+        69.961271638794,
+        -141.81991234621,
+        146.02295447083
+      ],
+      "intensity_min": 0.0,
+      "intensity_max": 837.0,
+      "intensity_mean": 54.310546875,
+      "intensity_std": 67.35101318359375,
+      "has_nan": false,
+      "has_inf": false,
+      "quality_score": 1.0
+    },
+    {
+      "subject_id": "1_S_0001",
+      "scan_type": "t2_spc_ns_sag_p2_iso",
+      "session_date": "2011-01-05",
+      "dicom_count": 160,
+      "series_description": "t2_spc_ns_sag_p2_iso",
+      "sequence_name": "*spc3d1_282ns",
+      "echo_time": 403.0,
+      "repetition_time": 3200.0,
+      "inversion_time": null,
+      "image_shape": [
+        160,
+        256,
+        256
+      ],
+      "image_spacing": [
+        0.9765625,
+        0.9765625,
+        1.0000000000000007
+      ],
+      "image_origin": [
+        77.529374180095,
+        -128.32878812064,
+        136.86024970855
+      ],
+      "intensity_min": 0.0,
+      "intensity_max": 661.0,
+      "intensity_mean": 64.34220123291016,
+      "intensity_std": 79.16788482666016,
+      "has_nan": false,
+      "has_inf": false,
+      "quality_score": 1.0
+    }
+  ],
+  "scan_priorities": {
+    "t1_mprage": 1,
+    "t2_flair": 2,
+    "t2_spc_ns_sag_p2_iso": 3
+  },
+  "quality_thresholds": {
+    "excellent": 0.8,
+    "good": 0.6,
+    "poor": 0.4
+  }
+}
